@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC9CE1CC193DBE0600BC5A4D /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9CE1CB193DBE0600BC5A4D /* HomeKit.framework */; };
+		CC9CE1CE193DBE3500BC5A4D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9CE1CD193DBE3500BC5A4D /* HealthKit.framework */; };
 		CCC239CD193DBA21009FB9A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC239CC193DBA21009FB9A2 /* main.m */; };
 		CCC239D0193DBA21009FB9A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC239CF193DBA21009FB9A2 /* AppDelegate.m */; };
 		CCC239D3193DBA21009FB9A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC239D2193DBA21009FB9A2 /* ViewController.m */; };
 		CCC239D6193DBA21009FB9A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC239D4193DBA21009FB9A2 /* Main.storyboard */; };
 		CCC239D8193DBA21009FB9A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC239D7193DBA21009FB9A2 /* Images.xcassets */; };
 		CCC239E4193DBA21009FB9A2 /* TouchIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC239E3193DBA21009FB9A2 /* TouchIDTests.m */; };
+		CCC3271B193DC02800DB9E9E /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC3271A193DC02800DB9E9E /* LocalAuthentication.framework */; };
+		CCC3271D193DC04000DB9E9E /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC3271C193DC04000DB9E9E /* PassKit.framework */; };
+		CCC3271F193DC04D00DB9E9E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC3271E193DC04D00DB9E9E /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC9CE1CB193DBE0600BC5A4D /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		CC9CE1CD193DBE3500BC5A4D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		CCC239C7193DBA21009FB9A2 /* TouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC239CB193DBA21009FB9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC239CC193DBA21009FB9A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,6 +45,9 @@
 		CCC239DD193DBA21009FB9A2 /* TouchIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC239E2193DBA21009FB9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC239E3193DBA21009FB9A2 /* TouchIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchIDTests.m; sourceTree = "<group>"; };
+		CCC3271A193DC02800DB9E9E /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		CCC3271C193DC04000DB9E9E /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		CCC3271E193DC04D00DB9E9E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC3271F193DC04D00DB9E9E /* Security.framework in Frameworks */,
+				CCC3271D193DC04000DB9E9E /* PassKit.framework in Frameworks */,
+				CCC3271B193DC02800DB9E9E /* LocalAuthentication.framework in Frameworks */,
+				CC9CE1CE193DBE3500BC5A4D /* HealthKit.framework in Frameworks */,
+				CC9CE1CC193DBE0600BC5A4D /* HomeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,11 @@
 		CCC239BE193DBA20009FB9A2 = {
 			isa = PBXGroup;
 			children = (
+				CCC3271E193DC04D00DB9E9E /* Security.framework */,
+				CCC3271C193DC04000DB9E9E /* PassKit.framework */,
+				CCC3271A193DC02800DB9E9E /* LocalAuthentication.framework */,
+				CC9CE1CD193DBE3500BC5A4D /* HealthKit.framework */,
+				CC9CE1CB193DBE0600BC5A4D /* HomeKit.framework */,
 				CCC239C9193DBA21009FB9A2 /* TouchID */,
 				CCC239E0193DBA21009FB9A2 /* TouchIDTests */,
 				CCC239C8193DBA21009FB9A2 /* Products */,
@@ -334,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: JIEHAO DENG (RYR2KG82CG)";
 				INFOPLIST_FILE = TouchID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -345,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: JIEHAO DENG (RYR2KG82CG)";
 				INFOPLIST_FILE = TouchID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +428,7 @@
 				CCC239E9193DBA21009FB9A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC239EA193DBA21009FB9A2 /* Build configuration list for PBXNativeTarget "TouchIDTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +437,7 @@
 				CCC239EC193DBA21009FB9A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
