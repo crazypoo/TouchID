@@ -179,6 +179,18 @@
         OSStatus status = SecItemUpdate((__bridge CFDictionaryRef)query, (__bridge CFDictionaryRef)changes);
         NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"SEC_ITEM_UPDATE_STATUS", nil), [self keychainErrorToString:status]];
         [self printResult:self.textView message:msg];
+        if (status == -26276) {
+            NSLog(@"按了取消键");
+        }
+        else if (status == 0)
+        {
+            NSLog(@"验证成功之后cauozuo");
+        }
+        else
+        {
+            NSLog(@"其他操作");
+        }
+        NSLog(@"------（%d）",(int)status);
     });
 }
 
