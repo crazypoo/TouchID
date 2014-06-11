@@ -9,9 +9,49 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>documentPicker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>documentPickerFileProvider.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>exten.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>lollollollol.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>CC9A046B193EF6D800780DEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC9A047F193EF76F00780DEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC9A0494193EF91500780DEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC9A04A3193EF91500780DEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>CCC239C6193DBA21009FB9A2</key>
 		<dict>
 			<key>primary</key>
