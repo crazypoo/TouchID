@@ -1,4 +1,3 @@
 TouchID
 =======
-这是一个简单的TOUCHID-DEMO
-TouchID--Demo
+转到:https://github.com/crazypoo/PTools
